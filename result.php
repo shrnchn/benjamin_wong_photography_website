@@ -42,9 +42,10 @@
             </ul> <!-- nav -->
             <img class="logo" src="images/glasses.svg" alt="Benjamin Wong Photography">
         </div> <!-- header -->
-        <div class="spacer2"></div>
-        <h2>Thank you for your submission.</h2>
 
+        <div class="content">
+        <h2>Thank you for your submission.</h2>
+        </div>
 
 
     </div> <!-- wrapper end -->

@@ -137,16 +137,16 @@ em {
  	background: url('images/bg01.jpg') no-repeat center;
  	background-size: cover;
  }
- .spacer1 {
+/* .spacer1 {
  	margin: 110px 0;
  }
  .spacer2 {
  	margin: 130px 0;
- }
+ }*/
  .content {
 	width: 50%;
 	background: white;
-	margin: 0 auto;
+	margin: 130px auto 0 auto;
  }
 h1 {
 	font-family: 'Prata', serif;
@@ -269,7 +269,7 @@ h3 {
 }
 .portfolio_index {
 	width: 75%;
-	margin: 0 auto;
+	margin: 130px auto 0 auto;
 }
 .portfolio_index_thumb {
 	width: 33%;

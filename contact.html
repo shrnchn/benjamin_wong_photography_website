@@ -27,37 +27,38 @@
             </ul> <!-- nav -->
             <img class="logo" src="images/glasses.svg" alt="Benjamin Wong Photography">
         </div> <!-- header -->
-        <div class="spacer2"></div>
+        
+        <div class="content">
+            <h1>Contact Me</h1>
 
-        <h1>Contact Me</h1>
+            <div class="contact_form">
+                <form id=“myForm" name=“myForm" method="post" action="result.php">
+                    <label>
+                        <p>Name</p><input type="text" name="name" />
+                    </label>
 
-        <div class="contact_form">
-            <form id=“myForm" name=“myForm" method="post" action="result.php">
-                <label>
-                    <p>Name</p><input type="text" name="name" />
-                </label>
+                    <label>
+                        <p>Email</p><input type="text" name="email" />
+                    </label>
 
-                <label>
-                    <p>Email</p><input type="text" name="email" />
-                </label>
+                    <label>
+                        <p>Message</p><textarea name="message" placeholder="Type of photographic inquiry"></textarea>
+                        <input name="submit" type="submit" class="button" value="Come at me bro" />
+                    </label>
+                </form>
 
-                <label>
-                    <p>Message</p><textarea name="message" placeholder="Type of photographic inquiry"></textarea>
-                    <input name="submit" type="submit" class="button" value="Come at me bro" />
-                </label>
-            </form>
+                <p class="contact">
+                    <strong>e.</strong> <a href="mailto:hello@benjaminwong.ca"><em>hello@benjaminwong.ca</a></em>&nbsp;&nbsp;
+                    <strong>t.</strong> <em>+1 416 967 1111</em>
+                </p>
 
-            <p class="contact">
-                <strong>e.</strong> <a href="mailto:hello@benjaminwong.ca"><em>hello@benjaminwong.ca</a></em>&nbsp;&nbsp;
-                <strong>t.</strong> <em>+1 416 967 1111</em>
-            </p>
-
-        </div> <!-- contact_formend -->
+            </div> <!-- contact_formend -->
+        </div>  <!-- content end -->
     </div> <!-- wrapper end -->
 
     <div class="footer">
       <p>Copyright © Benjamin Wong, 2014. Site by <a href="http://www.sharonchan.ca/" target="_blank">Sharon Chan</a>.</p>
-    </div>
+  </div>
 
 </body>
 </html>
