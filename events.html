@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Benjamin Wong Photography</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Prata' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/dist/jquery.simpleGal.js"></script>
+
+</head>
+<body>
+
+  <div class="wrapper clearfix">
+    <div class="header">
+      <ul class="nav">
+        <li><a href="portfolio.html">PORTFOLIO</a>
+          <ul class="sub_nav">
+            <li><a href="engagements.html">engagements</a></li>
+            <li><a href="events.html">events</a></li>
+            <li><a href="personal.html">personal</a></li>
+            <li><a href="portraits.html">portraits</a></li>
+            <li><a href="weddings.html">weddings</a></li>
+          </ul> <!-- sub nav -->
+        </li>           
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="index.html">BLOG</a></li>
+      </ul> <!-- nav -->
+      <img class="logo" src="images/glasses.svg" alt="Benjamin Wong Photography">
+    </div> <!-- header -->
+    <div class="spacer2"></div>
+
+
+    <div class="portfolio_content">
+      <h1>Portfolio Work</h1>
+      <h4><a href="engagements.html"><</a> events <a href="personal.html">></a></h4>
+      <div class="main-image">
+        <img src="portfolio/events/01.jpg" alt="Placeholder" class="custom">
+      </div>
+
+      <div class="thumbnails">
+        <li><a href="portfolio/events/01.jpg"><img src="portfolio/events/01.jpg" alt="Thumbnails"></a></li>
+        <li><a href="portfolio/events/02.jpg"><img src="portfolio/events/02.jpg" alt="Thumbnails"></a></li>
+        <li><a href="portfolio/events/03.jpg"><img src="portfolio/events/03.jpg" alt="Thumbnails"></a></li>
+        <li><a href="portfolio/events/04.jpg"><img src="portfolio/events/04.jpg" alt="Thumbnails"></a></li>
+        <li><a href="portfolio/events/05.jpg"><img src="portfolio/events/05.jpg" alt="Thumbnails"></a></li>
+        <li><a href="portfolio/events/06.jpg"><img src="portfolio/events/06.jpg" alt="Thumbnails"></a></li>
+        <li><a href="portfolio/events/07.jpg"><img src="portfolio/events/07.jpg" alt="Thumbnails"></a></li>
+       
+      </div>
+
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $('.thumbnails').simpleGal({
+          mainImage: '.custom'
+        });
+      });
+    </script>
+
+    <div class="footer">
+      <p>Copyright © Benjamin Wong, 2014. Site by <a href="http://www.sharonchan.ca/" target="_blank">Sharon Chan</a>.</p>
+    </div>
+
+  </body>
+  </html>
